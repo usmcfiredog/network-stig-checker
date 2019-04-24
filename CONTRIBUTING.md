@@ -1,6 +1,3 @@
 # Contributing
 
-Direct contributions from external parties are generally not accepted unless
-discussed beforehand with the author. Instead, we request that you open a new
-issue and describe the bug or feature enhancement. Feel free to include any
-recommendations when creating the issue.
+Direct contributions from external parties are happily accepted. If you wish to do so, I simply ask that you make a pull request documenting what solution is provided by your work. If I feel it is something I'd like to merge, I will happily do so after a review of the code (as should be done!)

@@ -13,14 +13,19 @@ tool works in an offline mode using an extensible framework of YAML
 rulesets for each vulnerability of interest.
 
 > Contact information:\
-> Email:    njrusmc@gmail.com\
-> Twitter:  @nickrusso42518
+> Email:    cody@dostal.co
 
+  * [Todo](#todo)
   * [Supported platforms](#supported-platforms)
   * [Usage](#usage)
   * [Operation](#operation)
   * [Testing](#testing)
   * [FAQ](#faq)
+
+## TODO
+- [ ] Download configurations from remote servers (using IP/DNS) and parse them locally.
+- [ ] Allow user to return results as Text, CSV, or XCCDF
+- [ ] Support for Juniper and Brocade in addition to Cisco (Palo Alto?)
 
 ## Supported platforms
 Any platform that has a text-based configuration suited for matching

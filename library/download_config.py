@@ -1,6 +1,6 @@
-import paramiko
-import ptftplib.tftpserver as tftp
-import scp
+import paramiko # SSH functionality
+import ptftplib.tftpserver as tftp # TFTP Functionality for CISCO download
+import scp # SCP Functionality for Brocade/Juniper
 
 class DownloadFromVendor():
     def __init__(self, vendor, username, password):

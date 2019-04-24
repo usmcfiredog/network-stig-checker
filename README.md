@@ -19,9 +19,7 @@ rulesets for each vulnerability of interest.
   * [FAQ](#faq)
 
 ## TODO
-- [ ] Download configurations from remote servers (using IP/DNS) and parse them locally.
-- [ ] Allow user to return results as Text, CSV, or XCCDF
-- [ ] Support for Juniper and Brocade in addition to Cisco (Palo Alto?)
+See [Primary Project Board](https://github.com/codywd/network-stig-checker/projects/1)
 
 ## Supported platforms
 Any platform that has a text-based configuration suited for matching

@@ -2,11 +2,8 @@
 https://travis-ci.org/codywd/network-stig-checker.svg?branch=master)](
 https://travis-ci.org/codywd/network-stig-checker)
 
-# Lightweight DISA STIG Scanner
-A simple and fast Python script to scan configurations for US Government
-Security Technical Implementation Guidance (STIG) compliance. The
-tool works in an offline mode using an extensible framework of YAML
-rulesets for each vulnerability of interest.
+# Network Device STIG Scanner 0.0.1
+A simple and fast Python script to scan configurations for Defense Information Systems Agency (DISA) Security Technical Implementation Guide (STIG) compliance for network devices (Cisco, Juniper, etc...). The tool works in an offline mode using an extensible framework of YAML rulesets for each vulnerability of interest. The script currently only supports certain Cisco devices, but will be extended to support Juniper, Brocade, and possibly Palo Alto as well.
 
 > Contact information:\
 > Email:    cody@dostal.co
@@ -19,18 +16,12 @@ rulesets for each vulnerability of interest.
   * [FAQ](#faq)
 
 ## TODO
-- [ ] Download configurations from remote servers (using IP/DNS) and parse them locally.
-- [ ] Allow user to return results as Text, CSV, or XCCDF
-- [ ] Support for Juniper and Brocade in addition to Cisco (Palo Alto?)
+See [Primary Project Board](https://github.com/codywd/network-stig-checker/projects/1)
 
 ## Supported platforms
-Any platform that has a text-based configuration suited for matching
-by regex can be used. The examples in this repository are all based on
-Cisco network devices. The support structures are in place
-for other operating systems as well.
+Any platform that has a text-based configuration suited for matching by regex can be used. The examples in this repository are all based on Cisco network devices. The support structures are in place for other operating systems as well.
 
-At the time of this writing, Cisco IOS and NXOS configurations are
-supported. Cisco IOS-XR and ASA will be supported in the near future.
+At the time of this writing, Cisco IOS and NXOS configurations are supported. Support is planned for other Cisco devices (such as IOS-XR and ASA), as well as Juniper, Brocade, and possibly Palo Alto firewalls.
 
 ## Usage
 `usage: stig.py [-h] [-v {0,1,2}] [-f] config_file`

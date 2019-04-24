@@ -2,3 +2,6 @@ bandit
 pylint
 yamllint
 ciscoconfparse
+paramiko
+ptftpd
+scp

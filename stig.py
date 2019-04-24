@@ -1,8 +1,8 @@
 '''
 Filename: stig.py
-Version: Python 3.7.3
-Original Author: Nicholas Russo (njrusmc@gmail.com)
-Contributor: Cody Dostal (cody@dostal.co)
+Python Tested With: 3.7.3
+Author: Cody Dostal (cody@dostal.co)
+Based on work by: Nicholas Russo (njrusmc@gmail.com)
 Description: Performs a fast but imperfect scan of Cisco IOS configuration
              files against specific rule sets corresponding to the STIGs
              specified in the file. The tool provides a variety of outputs
@@ -16,6 +16,9 @@ import argparse
 import sys
 import yaml
 from ciscoconfparse import CiscoConfParse
+
+## Global Variables
+version = "0.0.1"
 
 def print_rule_result(rule_data, rule_result, verbosity=0):
     '''
